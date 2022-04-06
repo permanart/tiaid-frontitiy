@@ -25,13 +25,13 @@ const Item = ({ state, item }) => {
         {author && (
           <StyledLink link={author.link}>
             <AuthorName>
-              By <b>{author.name}</b>
+              Ditulis <b>{author.name}</b>
             </AuthorName>
           </StyledLink>
         )}
         <PublishDate>
           {" "}
-          on <b>{date.toDateString()}</b>
+          pada <b>{date.toDateString()}</b>
         </PublishDate>
       </div>
 
@@ -40,7 +40,9 @@ const Item = ({ state, item }) => {
        * list of featured posts, we render the media.
        */}
       {state.theme.featured.showOnList && (
-        <FeaturedMedia id={item.featured_media} />
+        <Link link={item.link}>
+          <FeaturedMedia id={item.featured_media} />
+        </Link>
       )}
 
       {/* If the post has an excerpt (short summary text), we render it */}
