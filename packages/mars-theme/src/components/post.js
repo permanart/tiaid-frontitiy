@@ -219,6 +219,10 @@ const Content = styled.div`
     background-color: #1f38c5;
   }
 
+  .css-cycum p {
+    color: #3a3f55 !important;
+}
+
   /* WordPress Core Align Classes */
 
   @media (min-width: 420px) {
