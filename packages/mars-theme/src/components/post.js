@@ -221,7 +221,13 @@ const Content = styled.div`
 
   .css-cycum p {
     color: #3a3f55 !important;
-}
+  }
+  .css-cycum h3 {
+    color: #000 !important;
+  }
+  .css-cycum li {
+    color: #000 !important;
+  }
 
   /* WordPress Core Align Classes */
 
