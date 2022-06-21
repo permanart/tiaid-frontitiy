@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://id.techinasia.com",
-      "title": "Test Frontity Blog",
-      "description": "Wordpress API Data"
+      "title": "TIA BLOG",
+      "description": ""
     }
   },
   "packages": [
